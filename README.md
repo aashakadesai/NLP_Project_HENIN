@@ -11,18 +11,18 @@ Here is a description of each subfolder and what it contains:
 
 ### Data dowload instructions
 
-Instagram dataset: contains image description and user comments.
-Vine dataset: a mobile application website that allows users to record and edit a few seconds looping videos. Each vine session also contains video description and user comments.
-Unlabeled Vine: This is set of raw Vine sessions and posts. Unlike the preceding two datasets, these were manually processed and labeled
+- Instagram dataset: contains image description and user comments.
+- Vine dataset: a mobile application website that allows users to record and edit a few seconds looping videos. Each vine session also contains video description and user comments.
+- Unlabeled Vine: This is set of raw Vine sessions and posts. Unlike the preceding two datasets, these were manually processed and labeled
 
 Dataset available at https://sites.google.com/site/cucybersafety/home/cyberbullying-detection-project/dataset
 
 ### Dependencies
 To run the HENIN model code, the following are required
-python>=3.5
-keras == 2.24
-tensorflow == 1.13
-gensim, network, nltk
+- python>=3.5
+- keras == 2.24
+- tensorflow == 1.13
+- gensim, network, nltk
 
 Higher versions of tensor flow and keras are incompatible with the current HENIN codebase. Our comparison models can be run on google colab.
 
