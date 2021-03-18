@@ -33,3 +33,22 @@ The provided notebooks can be used to preprocess and run the models. The dataset
 
 ### Table of results
 
+\begin{center}
+\begin{tabular}{ |c |c| c| c| c| c|}
+\hline
+ dataset & model & acc & prec & rec & f1 \\ 
+ \hline
+ \multirow{5}{4em}{Instagram} & HENIN & \textbf{0.893} & 0.847 & \textbf{0.789} & \textbf{0.816} \\  
+  &LR & 0.820 & 0.722 & 0.736 & 0.710\\
+ &RF & 0.804 & \textbf{0.880} & 0.423 & 0.558 \\
+ &RNN & 0.772 & 0.743 & 0.468 & 0.531\\
+ &GRU & 0.805 & 0.764 & 0.539 & 0.625\\
+ \hline
+ \multirow{5}{4em}{Vine} & HENIN & \textbf{0.805} & 0.739 & \textbf{0.586} & \textbf{0.651} \\  
+ &LR  & 0.759 & 0.681 & 0.542 & 0.619 \\
+ &RF & 0.773 & 0.804 & 0.462 & 0.539 \\
+ &RNN & 0.721 & 0.759 & 0.156 & 0.242\\
+ &GRU & 0.715 & \textbf{0.852} & 0.102 & 0.180\\
+ \hline
+\end{tabular}
+\end{center}
