@@ -1,4 +1,4 @@
-## CSE 517 NLP
+## CSE 517 Natural Language Processing Project: Reproducibility Report for HENIN Paper
 
 This codebase was used to recreate the results found in the following paper [HENIN](https://www.aclweb.org/anthology/2020.emnlp-main.200.pdf). The author's codebase can be found at the following link: [Codebase](https://github.com/HsinYu7330/HENIN)
 
