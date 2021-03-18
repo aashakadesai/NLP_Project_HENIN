@@ -10,6 +10,10 @@ Here is a description of each subfolder and what it contains:
 - Models: Contains code and notebooks pertaining to the creation and training of models used within the paper.
 - - RNN_GRU.ipynb : This notebook contains implementation of baseline RNN and GRU models. It evaluates RNN and GRU on the processed Vine, Instagram and unlabeled datasets. It also tests early detection of cyberbullying using fraction of comments. 
 - - LR_RF.ipynb :
+- - Inst_hp_ed.ipynb :
+- - Inst_lstm.ipynb :
+- - Vine_hp_ed.ipynb :
+- - Vine_lstm.ipynb :
 
 ### Data dowload instructions
 
