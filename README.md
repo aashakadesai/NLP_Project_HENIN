@@ -34,7 +34,7 @@ The provided notebooks can be used to preprocess and run the models. The dataset
 ### Table of results
 
 
-|dataset   | model | acc  | prec  | rec  | f1   | 
+|Dataset   | Model | Accuracy  | Precision  | Recall  | F1   | 
 |----------|-------|------|-------|------|------|
 |Instagram | HENIN |0.893 | 0.847 | 0.789| 0.816|  
 ||  LR | 0.820 | 0.722 | 0.736 | 0.710 |
