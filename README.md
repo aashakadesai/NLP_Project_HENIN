@@ -33,6 +33,7 @@ The provided notebooks can be used to preprocess and run the models. The dataset
 
 ### Table of results
 
+The results we gained from comparing the HENIN model with other baseline models can be seen below. 
 
 |Dataset   | Model | Accuracy  | Precision  | Recall  | F1   | 
 |----------|-------|------|-------|------|------|
@@ -48,3 +49,4 @@ The provided notebooks can be used to preprocess and run the models. The dataset
  ||RNN | 0.721 | 0.759 | 0.156 | 0.242 |
  ||GRU | 0.715 | 0.852 | 0.102 | 0.180 |
  
+
