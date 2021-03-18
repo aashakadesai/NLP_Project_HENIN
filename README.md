@@ -9,7 +9,7 @@ Here is a description of each subfolder and what it contains:
 - Preprocessing: Contains code and notebooks for the generation of the three datasets used: Vine, Instagram, unlabeled Vine.
 - Models: Contains code and notebooks pertaining to the creation and training of models used within the paper.
 - - RNN_GRU.ipynb : This notebook contains implementation of baseline RNN and GRU models. It evaluates RNN and GRU on the processed Vine, Instagram and unlabeled datasets. It also tests early detection of cyberbullying using fraction of comments. 
-- - LR_RF.ipynb :
+- - LR_RF.ipynb : This notebook contains the implementation of the logisitic regression and random forest models. It contains the basis for generating evaluations on all three datasets.
 - - Inst_hp_ed.ipynb :
 - - Inst_lstm.ipynb :
 - - Vine_hp_ed.ipynb :
