@@ -30,9 +30,13 @@ Higher versions of tensor flow and keras are incompatible with the current HENIN
 
 ### Commands
 To run the HENIN codebase, the datasets have to be placed into the same directory as the code. Ensure the filepath in preprocess.py matches your directory structure, and use the following command to preprocess the data.  
+
 `python3 preprocess.py`
+
 This step needs to be repeated for each dataset after modifying the filepath. 
+
 The HENIN codebase uses 5-fold stratified cross-validation. Once the preprocessed files have been generated, use the following command to train and evaluate the HENIN model
+
 `python3 train.py`
 
 The provided notebooks can be uploaded to Google Colaboratory to preprocess and run the baseline and experimental models. The datasets have to be uploaded onto your google drive (file paths may have to be modified to match your directory). The cells can then be run in the notebook.
