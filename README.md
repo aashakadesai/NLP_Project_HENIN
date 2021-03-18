@@ -17,6 +17,8 @@ Here is a description of each subfolder and what it contains:
 
 Dataset available at https://sites.google.com/site/cucybersafety/home/cyberbullying-detection-project/dataset
 
+Once acquired, the datset can be preprocessed using the files in the preprocessing folder. We are unable to upload processed data due to signed End User Agreements with the source institution. However, please feel free to email us for processed code if you are running into trouble. 
+
 ### Dependencies
 To run the HENIN model code, the following are required
 - python>=3.5
@@ -24,12 +26,10 @@ To run the HENIN model code, the following are required
 - tensorflow == 1.13
 - gensim, network, nltk
 
-Higher versions of tensor flow and keras are incompatible with the current HENIN codebase. Our comparison models can be run on google colab.
+Higher versions of tensor flow and keras are incompatible with the current HENIN codebase. Our experiments and comparison models can be run on google colab.
 
 ### Commands
-preprocessing:
-training / evaluation:
-
-for each model
+The provided notebooks can be used to preprocess and run the models. The datasets have to be uploaded onto your google drive (file paths may have to be modified to match your directory). The cells can be run in the notebook.
 
 ### Table of results
+
