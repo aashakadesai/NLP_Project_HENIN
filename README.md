@@ -17,7 +17,7 @@ Here is a description of each subfolder and what it contains:
 
 Dataset available at https://sites.google.com/site/cucybersafety/home/cyberbullying-detection-project/dataset
 
-Once acquired, the datset can be preprocessed using the files in the preprocessing folder. We are unable to upload processed data due to signed End User Agreements with the source institution. However, please feel free to email us for processed code if you are running into trouble. 
+Once acquired, the datset can be preprocessed using the files in the preprocessing folder. We are unable to upload processed data due to signed End User Agreements with the source institution. We had to modify the column labels in the vine dataset for it to work with the preprocessing code provided in the HENIN codebase. Please feel free to email us for processed code if you are running into trouble. 
 
 ### Dependencies
 To run the HENIN model code, the following are required
@@ -33,7 +33,7 @@ The provided notebooks can be used to preprocess and run the models. The dataset
 
 ### Table of results
 
-The results we gained from comparing the HENIN model with other baseline models can be seen below. 
+We used 5-fold stratified crossvalidation to evaluate the HENIN model with other baselines. The results we gained can be seen below. 
 
 |Dataset   | Model | Accuracy  | Precision  | Recall  | F1   | 
 |----------|-------|------|-------|------|------|
@@ -49,4 +49,3 @@ The results we gained from comparing the HENIN model with other baseline models 
  ||RNN | 0.721 | 0.759 | 0.156 | 0.242 |
  ||GRU | 0.715 | 0.852 | 0.102 | 0.180 |
  
-
